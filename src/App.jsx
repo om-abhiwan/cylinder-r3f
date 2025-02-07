@@ -34,7 +34,7 @@ const App = () => {
         <EffectComposer>
           <Bloom
             minmapBlur
-            intensity={1}
+            intensity={.5}
             luminanceSmoothing={0}
             luminanceThreshold={0}
           />
